@@ -28,8 +28,8 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `students` (
-  `id` int(11) NOT NULL,
-  `student_id` varchar(4) NOT NULL,
+  `id` int(9) NOT NULL,
+  `student_id` varchar(3) NOT NULL,
   `first_name` varchar(255) NOT NULL,
   `last_name` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
