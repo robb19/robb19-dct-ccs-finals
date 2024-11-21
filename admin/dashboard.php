@@ -1,4 +1,14 @@
-<!-- Template Files here -->
+
+<?php 
+include '../functions.php';
+$logoutPage = 'logout.php';
+include './partials/header.php';
+include './partials/side-bar.php';
+
+ ?>
+
+
+<!-- Dashboard -->
 <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 pt-5">    
     <h1 class="h2">Dashboard</h1>        
     
