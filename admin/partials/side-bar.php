@@ -7,19 +7,19 @@
         <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <a class="nav-link d-flex align-items-center gap-2" href="/finalss/PHP-Finals/admin/Dashboard.php">
                         <i class="fa-solid fa-gauge fa-fw me-2"></i>
                         Dashboard
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <a class="nav-link d-flex align-items-center gap-2" href="/finalss/PHP-Finals/admin/subject/add.php">
                         <i class="fa-solid fa-book fa-fw me-2"></i>
                         Subjects
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <a class="nav-link d-flex align-items-center gap-2" href="/finalss/PHP-Finals/admin/students/register.php">
                         <i class="fa-solid fa-user fa-fw me-2"></i>
                         Students
                     </a>
@@ -30,7 +30,7 @@
 
             <!-- Logout Button -->
             <div class="mt-auto">
-                <a href="logout.php" class="btn btn-danger w-100 d-flex align-items-center justify-content-center gap-2">
+                <a href="logout.php" class="btn btn-danger w-0 d-flex align-items-center justify-content-center gap-2">
                    
                     Logout
                 </a>
