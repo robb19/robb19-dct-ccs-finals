@@ -7,7 +7,7 @@ if (isset($_POST['login'])) {
 
 	if ($con == false) {
 		die("ERROR: Could not connect" . mysqli_connect_error());
-	}     
+	}    
 
     $email = htmlspecialchars($_POST['email']);
     $password = htmlspecialchars($_POST['password']);
