@@ -10,8 +10,12 @@ include './partials/side-bar.php';
 
 <!-- Dashboard -->
 <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 pt-5">    
-    <h1 class="h2">Dashboard</h1>        
-    
+    <h1 class="h2">Dashboard</h1>   
+
+     <!-- Logout Button - Can place it in the top right -->
+     <div class="d-flex justify-content-end mb-3">
+        <a href="logout.php" class="btn btn-danger">Logout</a>
+    </div>
     <div class="row mt-5">
         <div class="col-12 col-xl-3">
             <div class="card border-primary mb-3">
